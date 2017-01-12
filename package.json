@@ -1,0 +1,24 @@
+{
+  "name": "authMini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjax13/authMini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjax13/authMini/issues"
+  },
+  "homepage": "https://github.com/bjax13/authMini#readme",
+  "dependencies": {
+    "express-session": "^1.14.2"
+  }
+}
