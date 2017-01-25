@@ -17,9 +17,9 @@ app.use(passport.session());
 // FacebookStrategy
 
 passport.use('facebook', new FacebookStrategy ({
-  clientId: config.facebook.clientId,
+  clientID: config.facebook.clientId,
   clientSecret: config.facebook.clientSecret,
-  callbackUrl:'http://localhost:3000/auth/facebook/callback',
+  callbackURL:'http://localhost:3000/auth/facebook/callback',
   profileFields:[]
 },(accessToken,refreashToken, profile, done) =>{
   // Access the database
